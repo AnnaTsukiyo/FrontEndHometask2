@@ -1,0 +1,177 @@
+body {
+    background: url("/images/pexels-photo-5591666.jpeg");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 100vh;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.heading {
+    color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+    text-transform: uppercase;
+    transform: translate(-50%, 0%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+.tips-head {
+    color: darkgoldenrod;
+    border: 2px solid black;
+    padding: 10px;
+    text-transform: uppercase;
+    transform: translate(-50%, 0%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+.receipt-head {
+    color: darkgoldenrod;
+    border: 1px solid black;
+    padding: 10px;
+    text-transform: uppercase;
+    transform: translate(-40%, 10%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+nav {
+    text-transform: uppercase;
+    font-style: inherit;
+    border: 30px;
+    background-color: transparent;
+    padding: 20px;
+    color: cadetblue;
+    text-align: inherit;
+}
+
+a {
+    text-decoration: indigo;
+    color: beige;
+    font-size: 20px;
+    image-rendering: optimizeSpeed;
+}
+
+.start-page-center {
+    color: rgb(186, 181, 128);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 15px;
+    font-style: italic;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    position: relative;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+ol {
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 350px;
+    padding-left: 10px;
+    color: blue;
+    border-bottom: 1px solid #ddd;
+    width: 56%;
+    font-style: italic;
+    position: absolute;
+}
+
+ol li {
+    color: rgb(87, 128, 204);
+    padding: 5px 6px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 350px;
+    padding-left: 10px;
+    color: coral;
+    width: 56%;
+    font-style: italic;
+    position: absolute;
+    image-orientation: from-image 30px;
+}
+
+h4 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+table {
+
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 130px;
+    border-collapse: separate;
+    border-left: 150px;
+    border-spacing: 10px;
+    empty-cells: hide;
+    font-size: 14px;
+    background: darkgray;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+
+tr {
+    width: 50px;
+
+}
+
+tr:hover td {
+    width: 60px;
+    color: #6699ff;
+}
+
+.dpdwn div {
+    display: none;
+}
+
+.dpdwn:hover div {
+    display: block;
+}
+
+.text-footer {
+    font-size: 17px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+}
